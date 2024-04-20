@@ -1,0 +1,1571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FA7BB4D4BF79424941ECC2F3B507C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		06B8420E22D3F5E03AAB6B27BD4FF2D9 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9EDA51CA09DE4E3CE8CACA9EB73D9E /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A088FE9F075115B58BA10B4F6510D2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		126980879CC60FC03CD61C12CBBF1A3D /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451BD0132C781EB8DB58A6D3A170CE54 /* Expression.swift */; };
+		143D1749A52A7CC214F1F8BCC1036490 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9EDA51CA09DE4E3CE8CACA9EB73D9E /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		147FA0F5A84D6E28C118CD613F715259 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7D16EE1E72F53606FB2FF8BFF16F21 /* Helpers.swift */; };
+		156EB87B75A2AC0E0E6EAC81C1D3B72B /* SQLite.swift-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD6E87A2469369C1EB7857713D7B598 /* SQLite.swift-library-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		162E44EF0D979915D8F5447D19ED60F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */; };
+		23F205E1C46A56FE992DA84149370C7A /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74D5E69B46AC8F108197AEC8F014E /* Statement.swift */; };
+		30C2BA84E41ADED91C736758665B72DB /* Pods-BookMarketTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F92F89D088F6983FEDB6B57D66D970 /* Pods-BookMarketTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E3A1A47CE6420A52489ACCD86E183C /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B881AD2B907C84D2599B32264C59D8 /* DateAndTimeFunctions.swift */; };
+		37BBB55AAA51308742C345A6239F75BE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A7A6C57020CD0CD47CBC12A299B5E /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		39D0E49032BD785C385B4C3481A1CC17 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBBE2AD2FE9B5A436844BF83136F211 /* RTree.swift */; };
+		3A26220489F7DBC7E2F886190E16A0B3 /* MBProgressHUD-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A47849688D0139552F4FD33440F5F8 /* MBProgressHUD-framework-dummy.m */; };
+		4BB7D942B6AFBAF724D0DECBE6655B76 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E5642BC87DABE2534E2851D2D8C59F /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CA299ED69F47E3A0EEA1E7DA2599B60 /* Pods-BookMarket-BookMarketUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6443E9B7A1D2F1D219C6C13CAA88B2 /* Pods-BookMarket-BookMarketUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EBEAABA65B08BC501FBC3AC7783FAFB /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = D63B3276621DE6F86065CAFCBCF23138 /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5139F3C98210F017EC83B4A81874299E /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F6BED00921DCF9CFF46CBC18FA533E /* Operators.swift */; };
+		55AEC0F79B66C472D1470210C967D19F /* Pods-BookMarket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2551FD9A3C12A4CF28CDF6F4E908DA /* Pods-BookMarket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE9238543151526650AA1C074EED5E6 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC2C7B59F9ACD6005DC216937E5ED8 /* Collation.swift */; };
+		60D9D231AC14F5887FDDC68885E5F27E /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451BD0132C781EB8DB58A6D3A170CE54 /* Expression.swift */; };
+		63BE0FA8351C08DAFDFA4F31E955064D /* MBProgressHUD-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D25158094EC5C5456262924C20C84C9B /* MBProgressHUD-library-dummy.m */; };
+		6465ACA2AC7456F31EF14DCD4060567A /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C7D10309068BB5F5FD4F05A74968DC /* Value.swift */; };
+		69B1D45D5D963CBF37D9434E706B684B /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B881AD2B907C84D2599B32264C59D8 /* DateAndTimeFunctions.swift */; };
+		6D0089A0E4B1D41FAAA801F09CB8A24A /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949037BD7FE14985BE5196543CB742CC /* Connection.swift */; };
+		6D07CF5F329BECEEEC1A36D2585CC41D /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AF1EDB711B843FE2091D5D809449FF /* Schema.swift */; };
+		6D34258D469C9479DC974362E3F30B7E /* Pods-BookMarket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801953A2518126B2F1E63FAD58E0CFF /* Pods-BookMarket-dummy.m */; };
+		6E2B90EAF19BBCE9674B6B8897907655 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E1BF9AC7A1283B8D5E829F298A656 /* Query.swift */; };
+		6EE3457DCE88B4E543A2E1BBBD9B776C /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = A15739C61095D5AD37A2D1777CBDE08C /* SQLite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78617A225AC6B55525398E520C2A04A9 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C74D5E69B46AC8F108197AEC8F014E /* Statement.swift */; };
+		788640F158105D7AB2C2C657523E432F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A7A6C57020CD0CD47CBC12A299B5E /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7D2969A53033F913937D58C3017BFA2D /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AF1EDB711B843FE2091D5D809449FF /* Schema.swift */; };
+		7D966D082E4C3C14B885860C5584928B /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5984D71749CF8ED8FEC1EF8348413 /* FTS5.swift */; };
+		7E0A52E336CF35BCF433FE62C928C7CB /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E5642BC87DABE2534E2851D2D8C59F /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7EFFB237E7D6F9540423452B190BD20F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		7F28858315BD503C6928F55CA11F223F /* SQLite.swift-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFD66DDCD0D293BAEDAC8ADFD607C80 /* SQLite.swift-framework-dummy.m */; };
+		8204A00B297C5AB33DE833C27FCE89D3 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC2C7B59F9ACD6005DC216937E5ED8 /* Collation.swift */; };
+		83606D59586D05BF4F328EE43942EBF2 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949037BD7FE14985BE5196543CB742CC /* Connection.swift */; };
+		84DB5FEDF15546C15761E6062C641F39 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C7D10309068BB5F5FD4F05A74968DC /* Value.swift */; };
+		89580A8451AD14381E99D3E89EFA4896 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBBE2AD2FE9B5A436844BF83136F211 /* RTree.swift */; };
+		8969945F03D10D362BE5729F6F913EEC /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708E5EA9B7A58BFAC6C9B202835EB8F /* Foundation.swift */; };
+		90CAE86EED4A530EB8FC45D36A2D82F0 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7D1CB4E03D9B3E2CFB7C01CED6F06 /* CustomFunctions.swift */; };
+		91FF1E9624A0D88A477FD180E3326401 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF7B22375D71BC26ABF3D24AFBE79A /* Setter.swift */; };
+		965CEEF02F566E41DBD4C7DA96C872C5 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBC1519C387ACC2FA54DA9FF69F0EA7 /* SQLiteObjc.m */; };
+		974A6C80DEEF30991410290652824AC2 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F6BED00921DCF9CFF46CBC18FA533E /* Operators.swift */; };
+		98C8FB62B04E0BDA5A20B14DB306B87C /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE4439692AACD1CC24A9EE9BF848BD8 /* CoreFunctions.swift */; };
+		98F42ECE63EC5E307DF9241950ED8462 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708E5EA9B7A58BFAC6C9B202835EB8F /* Foundation.swift */; };
+		9A5D5EF4F0DC5D421B2D0193B2935814 /* Pods-BookMarket-BookMarketUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 926686EF4E8F4DA0F8DEDB97A3568E19 /* Pods-BookMarket-BookMarketUITests-dummy.m */; };
+		9CB25613D6A2ECF44853E60BCD7EA597 /* SQLite.swift-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC168E7B183D8059D00F2C19A063C82F /* SQLite.swift-library-dummy.m */; };
+		AA24D4F4141E907F318796113CD4A7E7 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28ABD19C43B43B9C55C241E8BCAF3E /* AggregateFunctions.swift */; };
+		AA6B8251AE31D1E1D0C8FCDEEC93AC3E /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E1BF9AC7A1283B8D5E829F298A656 /* Query.swift */; };
+		AAED0850D2F8F8775E58AD1B3272B320 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF7B22375D71BC26ABF3D24AFBE79A /* Setter.swift */; };
+		B0DBD65F2C86FF39C032458EE1750D74 /* MBProgressHUD-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EA4BFC678FF4B17D323EEE2AB8B34D /* MBProgressHUD-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1559EC0261B8880B28BDEFAA629CF96 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614AE345AB6E0C9C1F30DBF681CDB /* Blob.swift */; };
+		B90E93A28B605E3BC565D9153284CF7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		BA3B64C838204EBFC283D92180051936 /* SQLite.swift-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA196BE2CD4350775D1034BB9B61A4F /* SQLite.swift-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C03819479DFE5B3A691DF1B5481F12F4 /* Pods-BookMarketTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6065656DDA3CB8D9661552EFF09A0221 /* Pods-BookMarketTests-dummy.m */; };
+		C48672B068E8EFCDD124FF141459DDCD /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = A15739C61095D5AD37A2D1777CBDE08C /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC0BFBAC78E13F80338C2E485D41424C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		CC5B8BE3D669E41FE03A64BC05A31B68 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE4439692AACD1CC24A9EE9BF848BD8 /* CoreFunctions.swift */; };
+		CF4E3BA656A8C814EAED24344FEAD436 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ECAFB6B1A5F71D5CFC57ECA6444C2 /* FTS4.swift */; };
+		D2CCEFC52B2468E17E223374E5AD1E67 /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = D63B3276621DE6F86065CAFCBCF23138 /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3A6AA2D300BA9B946D92541E520FD99 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895ECAFB6B1A5F71D5CFC57ECA6444C2 /* FTS4.swift */; };
+		D42457143681DC50456F1779D4597309 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0ECCFEFE6FC9D8CFC9A18DFBB52FE0 /* Coding.swift */; };
+		D98340E30609AF84030B85FC89892491 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBC1519C387ACC2FA54DA9FF69F0EA7 /* SQLiteObjc.m */; };
+		DB872D0CC9F9760A12EAC7188C1229FA /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7D1CB4E03D9B3E2CFB7C01CED6F06 /* CustomFunctions.swift */; };
+		E57DAD2342211DCBC8B540EDD592956F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7D16EE1E72F53606FB2FF8BFF16F21 /* Helpers.swift */; };
+		E7D159CD853935DA1EC9D6F653FC5AA6 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614AE345AB6E0C9C1F30DBF681CDB /* Blob.swift */; };
+		ECB4507D25AB478FB66DBA9D1030B6C0 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28ABD19C43B43B9C55C241E8BCAF3E /* AggregateFunctions.swift */; };
+		F5ABD7B36A9BBD9557A68E2F0034964B /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F691ADFB11B9FBD3ABB33E0A57FDE /* Errors.swift */; };
+		F6E53E4F6165E77CCD3ED91D52DF35A1 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0ECCFEFE6FC9D8CFC9A18DFBB52FE0 /* Coding.swift */; };
+		F9C4ED89ACECCC10C7F1FAB5DB8098CF /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F691ADFB11B9FBD3ABB33E0A57FDE /* Errors.swift */; };
+		FF1ADB4EB0D3596740C4E8F63A409776 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5984D71749CF8ED8FEC1EF8348413 /* FTS5.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		062B3DD5F67E65F27D44D4AEC47F83DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B87227BA9E92EC6343F4275612FC92E;
+			remoteInfo = "MBProgressHUD-framework";
+		};
+		208DBDF8D54448B1EA05F65D39813740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57DD0C3B70AFBEFDCAE9D2350F5097E7;
+			remoteInfo = "Pods-BookMarket";
+		};
+		40583129564C542451AC5945BF8A1CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B87227BA9E92EC6343F4275612FC92E;
+			remoteInfo = "MBProgressHUD-framework";
+		};
+		7390841E1CDB0DA931C7DD1CD137B612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4040978D0683DA57BBBE93852E866F8;
+			remoteInfo = "SQLite.swift-framework";
+		};
+		8548ECEE9E08934EF4082ACB6F3587EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4040978D0683DA57BBBE93852E866F8;
+			remoteInfo = "SQLite.swift-framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022E1BF9AC7A1283B8D5E829F298A656 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		03EC2C7B59F9ACD6005DC216937E5ED8 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		19EA4BFC678FF4B17D323EEE2AB8B34D /* MBProgressHUD-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-framework-umbrella.h"; sourceTree = "<group>"; };
+		1A6443E9B7A1D2F1D219C6C13CAA88B2 /* Pods-BookMarket-BookMarketUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookMarket-BookMarketUITests-umbrella.h"; sourceTree = "<group>"; };
+		1ADCAA5C209985F6043B1190C97E542D /* Pods-BookMarket-BookMarketUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookMarket-BookMarketUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FA196BE2CD4350775D1034BB9B61A4F /* SQLite.swift-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-framework-umbrella.h"; sourceTree = "<group>"; };
+		20F6BED00921DCF9CFF46CBC18FA533E /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		21EA1D64E472EB488877A11B222C96F2 /* Pods-BookMarket-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookMarket-acknowledgements.plist"; sourceTree = "<group>"; };
+		22E77AF9E0EDB77F960730E164D8C6EF /* Pods-BookMarket-BookMarketUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BookMarket-BookMarketUITests"; path = Pods_BookMarket_BookMarketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2772880448F8FF03BCBD1019B115B699 /* Pods-BookMarketTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookMarketTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2801953A2518126B2F1E63FAD58E0CFF /* Pods-BookMarket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookMarket-dummy.m"; sourceTree = "<group>"; };
+		287E8A737B4EF2706A23544812875873 /* MBProgressHUD-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-framework-Info.plist"; sourceTree = "<group>"; };
+		2C563B926541DB26C76DFDE1C6310201 /* SQLite.swift-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SQLite.swift-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		2CD6E87A2469369C1EB7857713D7B598 /* SQLite.swift-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite.swift-library-umbrella.h"; path = "../SQLite.swift-library/SQLite.swift-library-umbrella.h"; sourceTree = "<group>"; };
+		2E3A7A6C57020CD0CD47CBC12A299B5E /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		32DF2DC90A1F3F2F79411339326297F6 /* Pods-BookMarketTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookMarketTests.modulemap"; sourceTree = "<group>"; };
+		34E82D00987293D9F10189653B04474C /* SQLite.swift-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SQLite.swift-library.release.xcconfig"; path = "../SQLite.swift-library/SQLite.swift-library.release.xcconfig"; sourceTree = "<group>"; };
+		370B6692603785D3E5C51381056FFE69 /* Pods-BookMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookMarket.release.xcconfig"; sourceTree = "<group>"; };
+		3D9BADD8AEBED5B9733BBD88C7BFD063 /* Pods-BookMarket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BookMarket"; path = Pods_BookMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F2ACA145CCD659C1B0E8FDA6081B31 /* Pods-BookMarket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookMarket.modulemap"; sourceTree = "<group>"; };
+		4318FFBEC0E65818D28D2982280E0C84 /* Pods-BookMarket-BookMarketUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookMarket-BookMarketUITests-frameworks.sh"; sourceTree = "<group>"; };
+		451BD0132C781EB8DB58A6D3A170CE54 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4CE6997FE81D8F3F772A7A80D87D1CC2 /* MBProgressHUD-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		4D1CCFAE3E2C42979487BA8AE7BB07CF /* Pods-BookMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF4109E4433D42E20B2377E61E6214A /* MBProgressHUD-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-framework-prefix.pch"; sourceTree = "<group>"; };
+		50414079F07F655F7FBDE3BD6FBE1DA4 /* SQLite.swift-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SQLite.swift-framework.release.xcconfig"; sourceTree = "<group>"; };
+		56E44824BB0CF7F14D133EEF78E14966 /* SQLite.swift-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-framework-Info.plist"; sourceTree = "<group>"; };
+		59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5945C4F354B3E5EED4C77E57DB334946 /* Pods-BookMarketTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BookMarketTests"; path = Pods_BookMarketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2551FD9A3C12A4CF28CDF6F4E908DA /* Pods-BookMarket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookMarket-umbrella.h"; sourceTree = "<group>"; };
+		5B8ABFACD41281E1971F74BCAA472EE6 /* Pods-BookMarket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookMarket-Info.plist"; sourceTree = "<group>"; };
+		5F7D16EE1E72F53606FB2FF8BFF16F21 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		6065656DDA3CB8D9661552EFF09A0221 /* Pods-BookMarketTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookMarketTests-dummy.m"; sourceTree = "<group>"; };
+		67C7D10309068BB5F5FD4F05A74968DC /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		6EE4439692AACD1CC24A9EE9BF848BD8 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		7A6B440939438BD7A2BCFE3F576BBCDC /* MBProgressHUD-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MBProgressHUD-library.debug.xcconfig"; path = "../MBProgressHUD-library/MBProgressHUD-library.debug.xcconfig"; sourceTree = "<group>"; };
+		7B7614AE345AB6E0C9C1F30DBF681CDB /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		7C710D253B899E6A32377F786DFD30C1 /* MBProgressHUD-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-framework.release.xcconfig"; sourceTree = "<group>"; };
+		7D28ABD19C43B43B9C55C241E8BCAF3E /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		84C45312F7BFC730D41D5686F37616FD /* SQLite.swift-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-framework-prefix.pch"; sourceTree = "<group>"; };
+		8708E5EA9B7A58BFAC6C9B202835EB8F /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		88A47849688D0139552F4FD33440F5F8 /* MBProgressHUD-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-framework-dummy.m"; sourceTree = "<group>"; };
+		895ECAFB6B1A5F71D5CFC57ECA6444C2 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		8D0ECCFEFE6FC9D8CFC9A18DFBB52FE0 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		8EFE56804E27495E755F52A479582541 /* Pods-BookMarketTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookMarketTests-Info.plist"; sourceTree = "<group>"; };
+		926686EF4E8F4DA0F8DEDB97A3568E19 /* Pods-BookMarket-BookMarketUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookMarket-BookMarketUITests-dummy.m"; sourceTree = "<group>"; };
+		949037BD7FE14985BE5196543CB742CC /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		96F92F89D088F6983FEDB6B57D66D970 /* Pods-BookMarketTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookMarketTests-umbrella.h"; sourceTree = "<group>"; };
+		99B881AD2B907C84D2599B32264C59D8 /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		9B4086BA415E869E45D78E2D776ECFC0 /* SQLite.swift-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SQLite.swift-framework.modulemap"; sourceTree = "<group>"; };
+		9BC7D1CB4E03D9B3E2CFB7C01CED6F06 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		9C32837E66E11A0E172720DF4EAA2946 /* SQLite.swift-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SQLite.swift-library.debug.xcconfig"; path = "../SQLite.swift-library/SQLite.swift-library.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15739C61095D5AD37A2D1777CBDE08C /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		A591FD570B6681BD9A57CD6488191126 /* Pods-BookMarket-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookMarket-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8FBCDAF3326D2F3C0B83240A3C629DA /* Pods-BookMarket-BookMarketUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookMarket-BookMarketUITests.modulemap"; sourceTree = "<group>"; };
+		B0F96DCD35E967A6596F826482FB220C /* MBProgressHUD-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MBProgressHUD-library.release.xcconfig"; path = "../MBProgressHUD-library/MBProgressHUD-library.release.xcconfig"; sourceTree = "<group>"; };
+		B12F691ADFB11B9FBD3ABB33E0A57FDE /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		B1CF7B22375D71BC26ABF3D24AFBE79A /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		B8D7BF884EEE307144F458C8DBE8E0D1 /* Pods-BookMarket-BookMarketUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookMarket-BookMarketUITests-Info.plist"; sourceTree = "<group>"; };
+		BBBC1519C387ACC2FA54DA9FF69F0EA7 /* SQLiteObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteObjc.m; path = Sources/SQLiteObjc/SQLiteObjc.m; sourceTree = "<group>"; };
+		BEAD64CA595A1AE64D7CB4E585D4CDC8 /* Pods-BookMarket-BookMarketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookMarket-BookMarketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF59C24E10EF1E2D98A3C3F4ABB02662 /* MBProgressHUD-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MBProgressHUD-framework.modulemap"; sourceTree = "<group>"; };
+		C6F84924C8FC0D1E6F958319867E4E41 /* SQLite.swift-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite.swift-library-prefix.pch"; path = "../SQLite.swift-library/SQLite.swift-library-prefix.pch"; sourceTree = "<group>"; };
+		CC168E7B183D8059D00F2C19A063C82F /* SQLite.swift-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite.swift-library-dummy.m"; path = "../SQLite.swift-library/SQLite.swift-library-dummy.m"; sourceTree = "<group>"; };
+		CEE5984D71749CF8ED8FEC1EF8348413 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		CEFD66DDCD0D293BAEDAC8ADFD607C80 /* SQLite.swift-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-framework-dummy.m"; sourceTree = "<group>"; };
+		CFBBE2AD2FE9B5A436844BF83136F211 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		D25158094EC5C5456262924C20C84C9B /* MBProgressHUD-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD-library-dummy.m"; path = "../MBProgressHUD-library/MBProgressHUD-library-dummy.m"; sourceTree = "<group>"; };
+		D59587CAB4086735543F49B472E3A509 /* SQLite.swift-library */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "SQLite.swift-library"; path = "libSQLite.swift-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63B3276621DE6F86065CAFCBCF23138 /* SQLiteObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = Sources/SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
+		D76CB69E46AD157C7C5361000B590881 /* Pods-BookMarketTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookMarketTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBF4C43B7ADF283C05FDC1F2B99FB0DC /* Pods-BookMarket-BookMarketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookMarket-BookMarketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC6A82DC856516FB67B15DB3FD54655D /* MBProgressHUD-framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "MBProgressHUD-framework"; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD91885DC09496C1DC05BD784AB7E162 /* SQLite.swift-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SQLite.swift-library.modulemap"; path = "../SQLite.swift-library/SQLite.swift-library.modulemap"; sourceTree = "<group>"; };
+		E3C74D5E69B46AC8F108197AEC8F014E /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		E64565A145335D43429937FB0A450A84 /* Pods-BookMarketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookMarketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC21E4A364E696D517A4BCC8C9621A6 /* SQLite.swift-framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "SQLite.swift-framework"; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9EDA51CA09DE4E3CE8CACA9EB73D9E /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F1F067E182F2A45A25651ACE4401C6FF /* MBProgressHUD-library */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "MBProgressHUD-library"; path = "libMBProgressHUD-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AF1EDB711B843FE2091D5D809449FF /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		F5E5642BC87DABE2534E2851D2D8C59F /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		FA35BC74D8EA3138E2FEC7144FF698D7 /* Pods-BookMarket-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookMarket-frameworks.sh"; sourceTree = "<group>"; };
+		FC2314AF21F87C406941263F4901B4B1 /* Pods-BookMarketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookMarketTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC2F8505733AF85020E1B610EE5E1D77 /* Pods-BookMarket-BookMarketUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookMarket-BookMarketUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC3C3626D75AC21E537F0025F52A6345 /* MBProgressHUD-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD-library-prefix.pch"; path = "../MBProgressHUD-library/MBProgressHUD-library-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3368CDA6CFEAE7A52A4D9E17E0C2C03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B5809C155DAF587A635C9A8BFF22C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FA7BB4D4BF79424941ECC2F3B507C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F0D0B5270DA64FAE0CE1803594C7C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162E44EF0D979915D8F5447D19ED60F8 /* CoreGraphics.framework in Frameworks */,
+				0A088FE9F075115B58BA10B4F6510D2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E2A98A162CC5AD3A0334AE40178DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F38CE6A7EC81CE5479403CFB780329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90E93A28B605E3BC565D9153284CF7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0B7E9EC38ED8B75EAAFEE2F3B85F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0BFBAC78E13F80338C2E485D41424C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91CC3DBA8BC14D10DB250D771043784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFFB237E7D6F9540423452B190BD20F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6B3BC658D33C7E8AA3A84233AB34CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF59C24E10EF1E2D98A3C3F4ABB02662 /* MBProgressHUD-framework.modulemap */,
+				88A47849688D0139552F4FD33440F5F8 /* MBProgressHUD-framework-dummy.m */,
+				287E8A737B4EF2706A23544812875873 /* MBProgressHUD-framework-Info.plist */,
+				4FF4109E4433D42E20B2377E61E6214A /* MBProgressHUD-framework-prefix.pch */,
+				19EA4BFC678FF4B17D323EEE2AB8B34D /* MBProgressHUD-framework-umbrella.h */,
+				4CE6997FE81D8F3F772A7A80D87D1CC2 /* MBProgressHUD-framework.debug.xcconfig */,
+				7C710D253B899E6A32377F786DFD30C1 /* MBProgressHUD-framework.release.xcconfig */,
+				D25158094EC5C5456262924C20C84C9B /* MBProgressHUD-library-dummy.m */,
+				FC3C3626D75AC21E537F0025F52A6345 /* MBProgressHUD-library-prefix.pch */,
+				7A6B440939438BD7A2BCFE3F576BBCDC /* MBProgressHUD-library.debug.xcconfig */,
+				B0F96DCD35E967A6596F826482FB220C /* MBProgressHUD-library.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD-framework";
+			sourceTree = "<group>";
+		};
+		0DCEFE807974CEEEDD8E917DD3B55A32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E56A5C6BFC578167D939C0B208319FD /* MBProgressHUD */,
+				617883F23780E47A503387EA0D31CD65 /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8001EF1E8C372FD31EFFB43C3FBF6F94 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BD6125F57BA5D8F8895CBB88E8EA504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC6A82DC856516FB67B15DB3FD54655D /* MBProgressHUD-framework */,
+				F1F067E182F2A45A25651ACE4401C6FF /* MBProgressHUD-library */,
+				3D9BADD8AEBED5B9733BBD88C7BFD063 /* Pods-BookMarket */,
+				22E77AF9E0EDB77F960730E164D8C6EF /* Pods-BookMarket-BookMarketUITests */,
+				5945C4F354B3E5EED4C77E57DB334946 /* Pods-BookMarketTests */,
+				EEC21E4A364E696D517A4BCC8C9621A6 /* SQLite.swift-framework */,
+				D59587CAB4086735543F49B472E3A509 /* SQLite.swift-library */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EF169EB2727C0BD5C7859E4ED58F5FA /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				7D28ABD19C43B43B9C55C241E8BCAF3E /* AggregateFunctions.swift */,
+				7B7614AE345AB6E0C9C1F30DBF681CDB /* Blob.swift */,
+				8D0ECCFEFE6FC9D8CFC9A18DFBB52FE0 /* Coding.swift */,
+				03EC2C7B59F9ACD6005DC216937E5ED8 /* Collation.swift */,
+				949037BD7FE14985BE5196543CB742CC /* Connection.swift */,
+				6EE4439692AACD1CC24A9EE9BF848BD8 /* CoreFunctions.swift */,
+				9BC7D1CB4E03D9B3E2CFB7C01CED6F06 /* CustomFunctions.swift */,
+				99B881AD2B907C84D2599B32264C59D8 /* DateAndTimeFunctions.swift */,
+				B12F691ADFB11B9FBD3ABB33E0A57FDE /* Errors.swift */,
+				451BD0132C781EB8DB58A6D3A170CE54 /* Expression.swift */,
+				8708E5EA9B7A58BFAC6C9B202835EB8F /* Foundation.swift */,
+				F5E5642BC87DABE2534E2851D2D8C59F /* fts3_tokenizer.h */,
+				895ECAFB6B1A5F71D5CFC57ECA6444C2 /* FTS4.swift */,
+				CEE5984D71749CF8ED8FEC1EF8348413 /* FTS5.swift */,
+				5F7D16EE1E72F53606FB2FF8BFF16F21 /* Helpers.swift */,
+				20F6BED00921DCF9CFF46CBC18FA533E /* Operators.swift */,
+				022E1BF9AC7A1283B8D5E829F298A656 /* Query.swift */,
+				CFBBE2AD2FE9B5A436844BF83136F211 /* RTree.swift */,
+				F5AF1EDB711B843FE2091D5D809449FF /* Schema.swift */,
+				B1CF7B22375D71BC26ABF3D24AFBE79A /* Setter.swift */,
+				A15739C61095D5AD37A2D1777CBDE08C /* SQLite.h */,
+				D63B3276621DE6F86065CAFCBCF23138 /* SQLiteObjc.h */,
+				BBBC1519C387ACC2FA54DA9FF69F0EA7 /* SQLiteObjc.m */,
+				E3C74D5E69B46AC8F108197AEC8F014E /* Statement.swift */,
+				67C7D10309068BB5F5FD4F05A74968DC /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		58C867D2DE5121828F9638BFD7A27924 /* Pods-BookMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				32DF2DC90A1F3F2F79411339326297F6 /* Pods-BookMarketTests.modulemap */,
+				2772880448F8FF03BCBD1019B115B699 /* Pods-BookMarketTests-acknowledgements.markdown */,
+				D76CB69E46AD157C7C5361000B590881 /* Pods-BookMarketTests-acknowledgements.plist */,
+				6065656DDA3CB8D9661552EFF09A0221 /* Pods-BookMarketTests-dummy.m */,
+				8EFE56804E27495E755F52A479582541 /* Pods-BookMarketTests-Info.plist */,
+				96F92F89D088F6983FEDB6B57D66D970 /* Pods-BookMarketTests-umbrella.h */,
+				E64565A145335D43429937FB0A450A84 /* Pods-BookMarketTests.debug.xcconfig */,
+				FC2314AF21F87C406941263F4901B4B1 /* Pods-BookMarketTests.release.xcconfig */,
+			);
+			name = "Pods-BookMarketTests";
+			path = "Target Support Files/Pods-BookMarketTests";
+			sourceTree = "<group>";
+		};
+		5DA962A348150F3E9C21D8C6CAAEA70B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCABFF58B2EC36C1D9CC38449CC40D4B /* Pods-BookMarket */,
+				D0EEC2C666D1C229F77CC53BBAE9BD78 /* Pods-BookMarket-BookMarketUITests */,
+				58C867D2DE5121828F9638BFD7A27924 /* Pods-BookMarketTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		617883F23780E47A503387EA0D31CD65 /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				2EF169EB2727C0BD5C7859E4ED58F5FA /* standard */,
+				AA16E8E9FF80C19B0F6D23C1B10B0A85 /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		8001EF1E8C372FD31EFFB43C3FBF6F94 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */,
+				59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8E56A5C6BFC578167D939C0B208319FD /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EDA51CA09DE4E3CE8CACA9EB73D9E /* MBProgressHUD.h */,
+				2E3A7A6C57020CD0CD47CBC12A299B5E /* MBProgressHUD.m */,
+				0D6B3BC658D33C7E8AA3A84233AB34CE /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		AA16E8E9FF80C19B0F6D23C1B10B0A85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B4086BA415E869E45D78E2D776ECFC0 /* SQLite.swift-framework.modulemap */,
+				CEFD66DDCD0D293BAEDAC8ADFD607C80 /* SQLite.swift-framework-dummy.m */,
+				56E44824BB0CF7F14D133EEF78E14966 /* SQLite.swift-framework-Info.plist */,
+				84C45312F7BFC730D41D5686F37616FD /* SQLite.swift-framework-prefix.pch */,
+				1FA196BE2CD4350775D1034BB9B61A4F /* SQLite.swift-framework-umbrella.h */,
+				2C563B926541DB26C76DFDE1C6310201 /* SQLite.swift-framework.debug.xcconfig */,
+				50414079F07F655F7FBDE3BD6FBE1DA4 /* SQLite.swift-framework.release.xcconfig */,
+				DD91885DC09496C1DC05BD784AB7E162 /* SQLite.swift-library.modulemap */,
+				CC168E7B183D8059D00F2C19A063C82F /* SQLite.swift-library-dummy.m */,
+				C6F84924C8FC0D1E6F958319867E4E41 /* SQLite.swift-library-prefix.pch */,
+				2CD6E87A2469369C1EB7857713D7B598 /* SQLite.swift-library-umbrella.h */,
+				9C32837E66E11A0E172720DF4EAA2946 /* SQLite.swift-library.debug.xcconfig */,
+				34E82D00987293D9F10189653B04474C /* SQLite.swift-library.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift-framework";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				0DCEFE807974CEEEDD8E917DD3B55A32 /* Pods */,
+				2BD6125F57BA5D8F8895CBB88E8EA504 /* Products */,
+				5DA962A348150F3E9C21D8C6CAAEA70B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0EEC2C666D1C229F77CC53BBAE9BD78 /* Pods-BookMarket-BookMarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBCDAF3326D2F3C0B83240A3C629DA /* Pods-BookMarket-BookMarketUITests.modulemap */,
+				1ADCAA5C209985F6043B1190C97E542D /* Pods-BookMarket-BookMarketUITests-acknowledgements.markdown */,
+				FC2F8505733AF85020E1B610EE5E1D77 /* Pods-BookMarket-BookMarketUITests-acknowledgements.plist */,
+				926686EF4E8F4DA0F8DEDB97A3568E19 /* Pods-BookMarket-BookMarketUITests-dummy.m */,
+				4318FFBEC0E65818D28D2982280E0C84 /* Pods-BookMarket-BookMarketUITests-frameworks.sh */,
+				B8D7BF884EEE307144F458C8DBE8E0D1 /* Pods-BookMarket-BookMarketUITests-Info.plist */,
+				1A6443E9B7A1D2F1D219C6C13CAA88B2 /* Pods-BookMarket-BookMarketUITests-umbrella.h */,
+				BEAD64CA595A1AE64D7CB4E585D4CDC8 /* Pods-BookMarket-BookMarketUITests.debug.xcconfig */,
+				DBF4C43B7ADF283C05FDC1F2B99FB0DC /* Pods-BookMarket-BookMarketUITests.release.xcconfig */,
+			);
+			name = "Pods-BookMarket-BookMarketUITests";
+			path = "Target Support Files/Pods-BookMarket-BookMarketUITests";
+			sourceTree = "<group>";
+		};
+		FCABFF58B2EC36C1D9CC38449CC40D4B /* Pods-BookMarket */ = {
+			isa = PBXGroup;
+			children = (
+				42F2ACA145CCD659C1B0E8FDA6081B31 /* Pods-BookMarket.modulemap */,
+				A591FD570B6681BD9A57CD6488191126 /* Pods-BookMarket-acknowledgements.markdown */,
+				21EA1D64E472EB488877A11B222C96F2 /* Pods-BookMarket-acknowledgements.plist */,
+				2801953A2518126B2F1E63FAD58E0CFF /* Pods-BookMarket-dummy.m */,
+				FA35BC74D8EA3138E2FEC7144FF698D7 /* Pods-BookMarket-frameworks.sh */,
+				5B8ABFACD41281E1971F74BCAA472EE6 /* Pods-BookMarket-Info.plist */,
+				5B2551FD9A3C12A4CF28CDF6F4E908DA /* Pods-BookMarket-umbrella.h */,
+				4D1CCFAE3E2C42979487BA8AE7BB07CF /* Pods-BookMarket.debug.xcconfig */,
+				370B6692603785D3E5C51381056FFE69 /* Pods-BookMarket.release.xcconfig */,
+			);
+			name = "Pods-BookMarket";
+			path = "Target Support Files/Pods-BookMarket";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FEE8A5354679FCC787D1B228BBC5907 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C2BA84E41ADED91C736758665B72DB /* Pods-BookMarketTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4930D4407EBBE8FF74A7EC015F355972 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143D1749A52A7CC214F1F8BCC1036490 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DBCDCC445DB3222776190292E44356 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA299ED69F47E3A0EEA1E7DA2599B60 /* Pods-BookMarket-BookMarketUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8207B5D5DDA892D98CD18A0572EFBE0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8420E22D3F5E03AAB6B27BD4FF2D9 /* MBProgressHUD.h in Headers */,
+				B0DBD65F2C86FF39C032458EE1750D74 /* MBProgressHUD-framework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97818A57336B84807342068E29C21AE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AEC0F79B66C472D1470210C967D19F /* Pods-BookMarket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CD312862001AFA2FD0D33C792F1E79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB7D942B6AFBAF724D0DECBE6655B76 /* fts3_tokenizer.h in Headers */,
+				6EE3457DCE88B4E543A2E1BBBD9B776C /* SQLite.h in Headers */,
+				156EB87B75A2AC0E0E6EAC81C1D3B72B /* SQLite.swift-library-umbrella.h in Headers */,
+				D2CCEFC52B2468E17E223374E5AD1E67 /* SQLiteObjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3A581EC5D49F236228862D5F3785FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0A52E336CF35BCF433FE62C928C7CB /* fts3_tokenizer.h in Headers */,
+				C48672B068E8EFCDD124FF141459DDCD /* SQLite.h in Headers */,
+				BA3B64C838204EBFC283D92180051936 /* SQLite.swift-framework-umbrella.h in Headers */,
+				4EBEAABA65B08BC501FBC3AC7783FAFB /* SQLiteObjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C615F4129725C63811C9B60425471B1 /* SQLite.swift-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D6A2C0E0CC260E4CF56D8629702B7D /* Build configuration list for PBXNativeTarget "SQLite.swift-library" */;
+			buildPhases = (
+				A5CD312862001AFA2FD0D33C792F1E79 /* Headers */,
+				FB47D45F298897098A8D08BD4D27798D /* Sources */,
+				B0E2A98A162CC5AD3A0334AE40178DCC /* Frameworks */,
+				0BE0E2D02FEB0E8DC81F372874E16CC6 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLite.swift-library";
+			productName = "SQLite.swift-library";
+			productReference = D59587CAB4086735543F49B472E3A509 /* SQLite.swift-library */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C746DAD3B5DB1F4ACBBC2A1E115A0E3 /* MBProgressHUD-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBB19A74B85A829E7E981B5B0A935B4 /* Build configuration list for PBXNativeTarget "MBProgressHUD-library" */;
+			buildPhases = (
+				4930D4407EBBE8FF74A7EC015F355972 /* Headers */,
+				DFCC28FA6881EB0818D4E4EEB4E78CE0 /* Sources */,
+				3368CDA6CFEAE7A52A4D9E17E0C2C03D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBProgressHUD-library";
+			productName = "MBProgressHUD-library";
+			productReference = F1F067E182F2A45A25651ACE4401C6FF /* MBProgressHUD-library */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57DD0C3B70AFBEFDCAE9D2350F5097E7 /* Pods-BookMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE17AC6CEA05A33F2114BBDA1402B9C4 /* Build configuration list for PBXNativeTarget "Pods-BookMarket" */;
+			buildPhases = (
+				97818A57336B84807342068E29C21AE2 /* Headers */,
+				97734DE1E2A6B2346018DB221A10199F /* Sources */,
+				F91CC3DBA8BC14D10DB250D771043784 /* Frameworks */,
+				85A41EAA10DB4FE4B989A4BEE237A60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B543690BA578490ADE055508961D6888 /* PBXTargetDependency */,
+				931237CD8A25DBD05F0B30628384272E /* PBXTargetDependency */,
+			);
+			name = "Pods-BookMarket";
+			productName = Pods_BookMarket;
+			productReference = 3D9BADD8AEBED5B9733BBD88C7BFD063 /* Pods-BookMarket */;
+			productType = "com.apple.product-type.framework";
+		};
+		70E88C339F5069899B448054FC4074A4 /* Pods-BookMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39E2116085B70D4DF778BC845DD94DF /* Build configuration list for PBXNativeTarget "Pods-BookMarketTests" */;
+			buildPhases = (
+				0FEE8A5354679FCC787D1B228BBC5907 /* Headers */,
+				1735CCD8E023C75EC3A186CDD4DC382C /* Sources */,
+				C6F38CE6A7EC81CE5479403CFB780329 /* Frameworks */,
+				BF903137715F8AFF0C92816930612974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749025E0039C5166B8BC3B075551D943 /* PBXTargetDependency */,
+			);
+			name = "Pods-BookMarketTests";
+			productName = Pods_BookMarketTests;
+			productReference = 5945C4F354B3E5EED4C77E57DB334946 /* Pods-BookMarketTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B87227BA9E92EC6343F4275612FC92E /* MBProgressHUD-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6919F65625E0314E7D083D51DEE9DF5D /* Build configuration list for PBXNativeTarget "MBProgressHUD-framework" */;
+			buildPhases = (
+				8207B5D5DDA892D98CD18A0572EFBE0C /* Headers */,
+				12DECD8D809949668C102D1CBBE6BB41 /* Sources */,
+				97F0D0B5270DA64FAE0CE1803594C7C7 /* Frameworks */,
+				91882F18D0C01E8502348C56DC3418B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBProgressHUD-framework";
+			productName = MBProgressHUD;
+			productReference = DC6A82DC856516FB67B15DB3FD54655D /* MBProgressHUD-framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		911FAB8FDD16207782C976491E7656A6 /* Pods-BookMarket-BookMarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0ABB08D0D2C443DCC54C3503A765F9 /* Build configuration list for PBXNativeTarget "Pods-BookMarket-BookMarketUITests" */;
+			buildPhases = (
+				64DBCDCC445DB3222776190292E44356 /* Headers */,
+				2323105EE86B87EFCDBE39F2567384D3 /* Sources */,
+				CD0B7E9EC38ED8B75EAAFEE2F3B85F61 /* Frameworks */,
+				6B7E0679783FEF382F61345B7BCF3A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF88E0FA5910E365811734FEB442F673 /* PBXTargetDependency */,
+				69EC0140895C79F12D5898D712AE09D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BookMarket-BookMarketUITests";
+			productName = Pods_BookMarket_BookMarketUITests;
+			productReference = 22E77AF9E0EDB77F960730E164D8C6EF /* Pods-BookMarket-BookMarketUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4040978D0683DA57BBBE93852E866F8 /* SQLite.swift-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B336849A0C32E2353514360F6FF7449 /* Build configuration list for PBXNativeTarget "SQLite.swift-framework" */;
+			buildPhases = (
+				CE3A581EC5D49F236228862D5F3785FB /* Headers */,
+				20FA33A62B7851DECF9FB0E83A95EA20 /* Sources */,
+				40B5809C155DAF587A635C9A8BFF22C9 /* Frameworks */,
+				DBAA585DF85C90FDB56DACFAB8C19790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLite.swift-framework";
+			productName = SQLite;
+			productReference = EEC21E4A364E696D517A4BCC8C9621A6 /* SQLite.swift-framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2BD6125F57BA5D8F8895CBB88E8EA504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B87227BA9E92EC6343F4275612FC92E /* MBProgressHUD-framework */,
+				3C746DAD3B5DB1F4ACBBC2A1E115A0E3 /* MBProgressHUD-library */,
+				57DD0C3B70AFBEFDCAE9D2350F5097E7 /* Pods-BookMarket */,
+				911FAB8FDD16207782C976491E7656A6 /* Pods-BookMarket-BookMarketUITests */,
+				70E88C339F5069899B448054FC4074A4 /* Pods-BookMarketTests */,
+				C4040978D0683DA57BBBE93852E866F8 /* SQLite.swift-framework */,
+				2C615F4129725C63811C9B60425471B1 /* SQLite.swift-library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B7E0679783FEF382F61345B7BCF3A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A41EAA10DB4FE4B989A4BEE237A60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91882F18D0C01E8502348C56DC3418B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF903137715F8AFF0C92816930612974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAA585DF85C90FDB56DACFAB8C19790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BE0E2D02FEB0E8DC81F372874E16CC6 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SQLite/SQLite.swift-library.modulemap",
+				"${PODS_ROOT}/Headers/Public/SQLite/SQLite.swift-library-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift-library-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SQLite/SQLite.swift-library.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SQLite/SQLite.swift-library-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12DECD8D809949668C102D1CBBE6BB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BBB55AAA51308742C345A6239F75BE /* MBProgressHUD.m in Sources */,
+				3A26220489F7DBC7E2F886190E16A0B3 /* MBProgressHUD-framework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1735CCD8E023C75EC3A186CDD4DC382C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03819479DFE5B3A691DF1B5481F12F4 /* Pods-BookMarketTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FA33A62B7851DECF9FB0E83A95EA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA24D4F4141E907F318796113CD4A7E7 /* AggregateFunctions.swift in Sources */,
+				B1559EC0261B8880B28BDEFAA629CF96 /* Blob.swift in Sources */,
+				D42457143681DC50456F1779D4597309 /* Coding.swift in Sources */,
+				8204A00B297C5AB33DE833C27FCE89D3 /* Collation.swift in Sources */,
+				6D0089A0E4B1D41FAAA801F09CB8A24A /* Connection.swift in Sources */,
+				CC5B8BE3D669E41FE03A64BC05A31B68 /* CoreFunctions.swift in Sources */,
+				90CAE86EED4A530EB8FC45D36A2D82F0 /* CustomFunctions.swift in Sources */,
+				69B1D45D5D963CBF37D9434E706B684B /* DateAndTimeFunctions.swift in Sources */,
+				F5ABD7B36A9BBD9557A68E2F0034964B /* Errors.swift in Sources */,
+				60D9D231AC14F5887FDDC68885E5F27E /* Expression.swift in Sources */,
+				8969945F03D10D362BE5729F6F913EEC /* Foundation.swift in Sources */,
+				CF4E3BA656A8C814EAED24344FEAD436 /* FTS4.swift in Sources */,
+				FF1ADB4EB0D3596740C4E8F63A409776 /* FTS5.swift in Sources */,
+				E57DAD2342211DCBC8B540EDD592956F /* Helpers.swift in Sources */,
+				5139F3C98210F017EC83B4A81874299E /* Operators.swift in Sources */,
+				AA6B8251AE31D1E1D0C8FCDEEC93AC3E /* Query.swift in Sources */,
+				89580A8451AD14381E99D3E89EFA4896 /* RTree.swift in Sources */,
+				7D2969A53033F913937D58C3017BFA2D /* Schema.swift in Sources */,
+				91FF1E9624A0D88A477FD180E3326401 /* Setter.swift in Sources */,
+				7F28858315BD503C6928F55CA11F223F /* SQLite.swift-framework-dummy.m in Sources */,
+				D98340E30609AF84030B85FC89892491 /* SQLiteObjc.m in Sources */,
+				23F205E1C46A56FE992DA84149370C7A /* Statement.swift in Sources */,
+				6465ACA2AC7456F31EF14DCD4060567A /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2323105EE86B87EFCDBE39F2567384D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5D5EF4F0DC5D421B2D0193B2935814 /* Pods-BookMarket-BookMarketUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97734DE1E2A6B2346018DB221A10199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D34258D469C9479DC974362E3F30B7E /* Pods-BookMarket-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCC28FA6881EB0818D4E4EEB4E78CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788640F158105D7AB2C2C657523E432F /* MBProgressHUD.m in Sources */,
+				63BE0FA8351C08DAFDFA4F31E955064D /* MBProgressHUD-library-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB47D45F298897098A8D08BD4D27798D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB4507D25AB478FB66DBA9D1030B6C0 /* AggregateFunctions.swift in Sources */,
+				E7D159CD853935DA1EC9D6F653FC5AA6 /* Blob.swift in Sources */,
+				F6E53E4F6165E77CCD3ED91D52DF35A1 /* Coding.swift in Sources */,
+				5FE9238543151526650AA1C074EED5E6 /* Collation.swift in Sources */,
+				83606D59586D05BF4F328EE43942EBF2 /* Connection.swift in Sources */,
+				98C8FB62B04E0BDA5A20B14DB306B87C /* CoreFunctions.swift in Sources */,
+				DB872D0CC9F9760A12EAC7188C1229FA /* CustomFunctions.swift in Sources */,
+				36E3A1A47CE6420A52489ACCD86E183C /* DateAndTimeFunctions.swift in Sources */,
+				F9C4ED89ACECCC10C7F1FAB5DB8098CF /* Errors.swift in Sources */,
+				126980879CC60FC03CD61C12CBBF1A3D /* Expression.swift in Sources */,
+				98F42ECE63EC5E307DF9241950ED8462 /* Foundation.swift in Sources */,
+				D3A6AA2D300BA9B946D92541E520FD99 /* FTS4.swift in Sources */,
+				7D966D082E4C3C14B885860C5584928B /* FTS5.swift in Sources */,
+				147FA0F5A84D6E28C118CD613F715259 /* Helpers.swift in Sources */,
+				974A6C80DEEF30991410290652824AC2 /* Operators.swift in Sources */,
+				6E2B90EAF19BBCE9674B6B8897907655 /* Query.swift in Sources */,
+				39D0E49032BD785C385B4C3481A1CC17 /* RTree.swift in Sources */,
+				6D07CF5F329BECEEEC1A36D2585CC41D /* Schema.swift in Sources */,
+				AAED0850D2F8F8775E58AD1B3272B320 /* Setter.swift in Sources */,
+				9CB25613D6A2ECF44853E60BCD7EA597 /* SQLite.swift-library-dummy.m in Sources */,
+				965CEEF02F566E41DBD4C7DA96C872C5 /* SQLiteObjc.m in Sources */,
+				78617A225AC6B55525398E520C2A04A9 /* Statement.swift in Sources */,
+				84DB5FEDF15546C15761E6062C641F39 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69EC0140895C79F12D5898D712AE09D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite.swift-framework";
+			target = C4040978D0683DA57BBBE93852E866F8 /* SQLite.swift-framework */;
+			targetProxy = 8548ECEE9E08934EF4082ACB6F3587EB /* PBXContainerItemProxy */;
+		};
+		749025E0039C5166B8BC3B075551D943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BookMarket";
+			target = 57DD0C3B70AFBEFDCAE9D2350F5097E7 /* Pods-BookMarket */;
+			targetProxy = 208DBDF8D54448B1EA05F65D39813740 /* PBXContainerItemProxy */;
+		};
+		931237CD8A25DBD05F0B30628384272E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite.swift-framework";
+			target = C4040978D0683DA57BBBE93852E866F8 /* SQLite.swift-framework */;
+			targetProxy = 7390841E1CDB0DA931C7DD1CD137B612 /* PBXContainerItemProxy */;
+		};
+		AF88E0FA5910E365811734FEB442F673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBProgressHUD-framework";
+			target = 8B87227BA9E92EC6343F4275612FC92E /* MBProgressHUD-framework */;
+			targetProxy = 062B3DD5F67E65F27D44D4AEC47F83DE /* PBXContainerItemProxy */;
+		};
+		B543690BA578490ADE055508961D6888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBProgressHUD-framework";
+			target = 8B87227BA9E92EC6343F4275612FC92E /* MBProgressHUD-framework */;
+			targetProxy = 40583129564C542451AC5945BF8A1CF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00BBBC52758AC50A06896111B9490EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64565A145335D43429937FB0A450A84 /* Pods-BookMarketTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookMarketTests/Pods-BookMarketTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookMarketTests/Pods-BookMarketTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		06C8854CCC5001CCB4EB590C9F6B9267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E82D00987293D9F10189653B04474C /* SQLite.swift-library.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift-library/SQLite.swift-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/SQLite/SQLite.swift-library.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = "SQLite.swift-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147ACA58B47AB8486809978280B24A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370B6692603785D3E5C51381056FFE69 /* Pods-BookMarket.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookMarket/Pods-BookMarket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookMarket/Pods-BookMarket.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18ABA5548735DB07F6C9711FF73A127F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6B440939438BD7A2BCFE3F576BBCDC /* MBProgressHUD-library.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-library/MBProgressHUD-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = "MBProgressHUD-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		247BBB504C49FAB7F8EF7B8C6F8BC8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEAD64CA595A1AE64D7CB4E585D4CDC8 /* Pods-BookMarket-BookMarketUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookMarket-BookMarketUITests/Pods-BookMarket-BookMarketUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookMarket-BookMarketUITests/Pods-BookMarket-BookMarketUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F9A2442A6A6FE9F8A10C2AB168FEB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C563B926541DB26C76DFDE1C6310201 /* SQLite.swift-framework.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift-framework/SQLite.swift-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift-framework/SQLite.swift-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift-framework/SQLite.swift-framework.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44F1495FEB3D16861522C5A316630609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C710D253B899E6A32377F786DFD30C1 /* MBProgressHUD-framework.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-framework/MBProgressHUD-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD-framework/MBProgressHUD-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD-framework/MBProgressHUD-framework.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59CA0BD21A31EAF879C13F25845423A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1CCFAE3E2C42979487BA8AE7BB07CF /* Pods-BookMarket.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookMarket/Pods-BookMarket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookMarket/Pods-BookMarket.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		764A8C682B587A5F75E6D079B2B8B63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2314AF21F87C406941263F4901B4B1 /* Pods-BookMarketTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookMarketTests/Pods-BookMarketTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookMarketTests/Pods-BookMarketTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E11C17404CF064D30DF78D1F318BB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF4C43B7ADF283C05FDC1F2B99FB0DC /* Pods-BookMarket-BookMarketUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookMarket-BookMarketUITests/Pods-BookMarket-BookMarketUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookMarket-BookMarketUITests/Pods-BookMarket-BookMarketUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83B319FFF874C2E4E9CC4866E78BE5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE6997FE81D8F3F772A7A80D87D1CC2 /* MBProgressHUD-framework.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-framework/MBProgressHUD-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD-framework/MBProgressHUD-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD-framework/MBProgressHUD-framework.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9043A9FD64498435AF677F92504A51DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C32837E66E11A0E172720DF4EAA2946 /* SQLite.swift-library.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift-library/SQLite.swift-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/SQLite/SQLite.swift-library.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = "SQLite.swift-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE59E9E0AF7474A3B96D8C754DB62FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F96DCD35E967A6596F826482FB220C /* MBProgressHUD-library.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-library/MBProgressHUD-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = "MBProgressHUD-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3909CC125AE89EAB70CFFAD2FD26220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50414079F07F655F7FBDE3BD6FBE1DA4 /* SQLite.swift-framework.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift-framework/SQLite.swift-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift-framework/SQLite.swift-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift-framework/SQLite.swift-framework.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C0ABB08D0D2C443DCC54C3503A765F9 /* Build configuration list for PBXNativeTarget "Pods-BookMarket-BookMarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247BBB504C49FAB7F8EF7B8C6F8BC8B3 /* Debug */,
+				7E11C17404CF064D30DF78D1F318BB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6919F65625E0314E7D083D51DEE9DF5D /* Build configuration list for PBXNativeTarget "MBProgressHUD-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B319FFF874C2E4E9CC4866E78BE5A6 /* Debug */,
+				44F1495FEB3D16861522C5A316630609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B336849A0C32E2353514360F6FF7449 /* Build configuration list for PBXNativeTarget "SQLite.swift-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9A2442A6A6FE9F8A10C2AB168FEB76 /* Debug */,
+				D3909CC125AE89EAB70CFFAD2FD26220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D6A2C0E0CC260E4CF56D8629702B7D /* Build configuration list for PBXNativeTarget "SQLite.swift-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9043A9FD64498435AF677F92504A51DF /* Debug */,
+				06C8854CCC5001CCB4EB590C9F6B9267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39E2116085B70D4DF778BC845DD94DF /* Build configuration list for PBXNativeTarget "Pods-BookMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BBBC52758AC50A06896111B9490EF5 /* Debug */,
+				764A8C682B587A5F75E6D079B2B8B63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE17AC6CEA05A33F2114BBDA1402B9C4 /* Build configuration list for PBXNativeTarget "Pods-BookMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CA0BD21A31EAF879C13F25845423A2 /* Debug */,
+				147ACA58B47AB8486809978280B24A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBB19A74B85A829E7E981B5B0A935B4 /* Build configuration list for PBXNativeTarget "MBProgressHUD-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ABA5548735DB07F6C9711FF73A127F /* Debug */,
+				CE59E9E0AF7474A3B96D8C754DB62FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
