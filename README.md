@@ -1,4 +1,4 @@
-# Bookstore - A Simple iOS APP demo
+# Bookstore - A Simple iOS APP Demo
 
 This repository contains the source code for a comprehensive Bookstore App developed as an experimental project. The app features a user-friendly interface for browsing books, managing a shopping cart, and handling user authentication and orders.
 
